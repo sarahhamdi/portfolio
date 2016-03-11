@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?el0ymm');
+    src:    url('fonts/icomoon.eot?el0ymm#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?el0ymm') format('truetype'),
+        url('fonts/icomoon.woff?el0ymm') format('woff'),
+        url('fonts/icomoon.svg?el0ymm#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura';
+    src:    url('fonts/futura-medium.eot') format('embedded-opentype'),
+        url('fonts/futura-medium.ttf') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+
+}
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-git-plain:before {
+    content: "\e900";
+}
+.icon-wordpress-plain:before {
+    content: "\e901";
+}
+.icon-gulp-plain:before {
+    content: "\e902";
+}
+.icon-jquery-original:before {
+    content: "\e903";
+}
+.icon-javascript-plain:before {
+    content: "\e904";
+}
+.icon-sass-original:before {
+    content: "\e905";
+}
+.icon-noun_115489_cc:before {
+    content: "\e906";
+}
+.icon-noun_251412_cc:before {
+    content: "\e907";
+}
+.icon-css3:before {
+    content: "\e908";
+}
+.icon-html5:before {
+    content: "\e909";
+}
+.icon-codepen:before {
+    content: "\e90a";
+}
+.icon-medium:before {
+    content: "\e90b";
+}
+.icon-linkedin:before {
+    content: "\e90c";
+}
+.icon-github:before {
+    content: "\e90d";
+}
+.icon-twitter:before {
+    content: "\e90e";
+}
+

@@ -1,0 +1,92 @@
+// SKILLS
+
+section.projects {
+	// @include outer-container;
+	margin-top: -10%;
+	box-shadow: 6px 6px 0px 0px $black;
+	ul.skills {
+		// @include span-columns(12);
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		li {
+			@include padding-margin (0, 10px)
+			display: flex;
+			flex-flow: column wrap;
+			justify-content: space-between;
+			align-items: center;
+			&:first-of-type {
+				@include padding-margin (0, 10px 10px 10px 0)
+			}
+			&:last-of-type {
+				@include padding-margin (0, 10px 0px 10px 10px)
+			}
+
+		}
+		i {
+			@include fontSize(30);
+			opacity: .3;
+		}
+		p {
+			text-transform: uppercase;
+			@include fontSize(8);
+		}
+	}
+}
+
+// PORTFOLIO
+
+article.portfolio-piece {
+	@include outer-container;
+	display: flex;
+	flex-flow: row wrap;
+	@include padding-margin (0, 100px auto 160px auto)
+	img {
+		filter: drop-shadow(-2px 2px 6px rgba(51, 51, 51, .07));
+	}
+	img.colour {
+		display: none;
+	}
+}
+
+div.portfolio-image {
+	@include span-columns(6);
+	padding-top: 18px;
+	z-index: $zindex-plus1;
+}
+&:nth-child(even) > div.portfolio-image {
+	order: 2;
+	margin-left: 2.35765%;
+	margin-right: 0;
+}
+
+div.portfolio-piece-description {
+	@include padding-margin (25px 20px 0 20px, 0)
+	@include span-columns(6);
+	position: relative;
+	z-index: 1;
+	&::before {
+		content: '';
+		width: 160%;
+		height: 110%;
+		background: $white;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: $zindex-minus1;
+	}
+}
+&:nth-child(even) > div.portfolio-piece-description {
+	@include padding-margin (25px 20px 0 20px, 0)
+	&::before {
+		content: '';
+		width: 160%;
+		height: 110%;
+		background: $white;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0px;
+		z-index: $zindex-minus1;
+	}
+}

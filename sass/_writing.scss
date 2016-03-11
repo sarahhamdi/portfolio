@@ -1,0 +1,39 @@
+div.writing {
+	column-count: 2;
+	column-width: span-columns(6);
+	@include padding-margin (0, 0 0 180px 0)
+}
+
+ul.blog-posts {
+	p {
+		@include padding-margin (0, 0 35px);
+	}
+
+	li {
+		@include padding-margin (0, 30px 25px 0 35px);
+		position: relative;
+		&:first-of-type {
+			@include padding-margin (0, 0px 25px 0 35px);
+		}
+		&::before {
+			content: '►';
+			color: $blue;
+			position: absolute;
+			left: -30px;
+			top: 4px;
+		}
+		a,
+		a:visited {
+			@include fontSize(10);
+			font-weight: $font-weight--medium;
+			color: $darkblue;
+			text-transform: uppercase;
+			line-height: 1.7;
+			&:hover,
+			&:focus {
+				color: $purple;
+			}
+
+		}
+	}
+}

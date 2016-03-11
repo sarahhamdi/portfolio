@@ -8,42 +8,93 @@
 */
 
 @import 'normalize';
+@import 'fonts';
+@import 'branding';
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import 'typography';
+@import 'buttons';
 @import 'navigation';
-@import 'sidebar';
-@import 'comments';
-@import 'footer';
+@import 'forms';
+@import 'header';
+@import 'projects';
+@import 'writing';
+
 /*
 ====================================
 Default Styling
 ====================================
 */
 
+html {
+	@include padding-margin (0, 0);
+	background:$white;
+}
 img {
 	max-width: 100%;
 }
 
 body {
-	color: #333;
+	@include padding-margin (0, 0);
+	color: $darkpurple;
+	background: $white;
+
 }
 
 .container {
-	max-width: 1200px;
-	margin: 0 auto;
+	@include outer-container(1100px);
+	@include padding-margin (0 50px 0 150px, 0 auto);
+	background: $lightgrey;
 }
 
 .content {
-	float: left;
-	width: 65%;
-	margin-right: 5%;
-}
-
-.full {
 	width: 100%;
 }
 
+section.projects,
+section.writing,
+section.contact {
+	background: $lightgrey;
+}
+
+section.writing {
+	// @include padding-margin (50px 50px 0 150px, 0 auto);
+	margin-top: 60px;
+	div.container {
+		padding-top: 100px;
+	}
+}
+
+section.contact {
+	margin-top: -10%;
+	padding-bottom: 100px;
+	div.container {
+		padding-top: 0;
+	}
+}
+
+article.form {
+	width: 60%;
+}
+
+svg#border-1,
+svg.border-1,
+svg#border-2 {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		// margin-top: -3px;
+		path#Rectangle-6 {
+			fill: $lightgrey;
+		}
+	}
+svg#border-1,
+svg.border-1 {
+	margin-top: -25px;
+}
+svg#border-2 {
+	// margin-top: -15%;
+}
 
 
 

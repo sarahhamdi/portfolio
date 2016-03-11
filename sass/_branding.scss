@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
+
+$font-family--header: "futura-medium", sans-serif;
+$font-family--body	: "Muli", sans-serif;
+
+// Font Weights
+$font-weight--light 	: 300;
+$font-weight--medium 	: 400;
+
+// Base Colours
+
+$blue			: rgba(78, 211, 219, 1);
+$darkblue		: rgba(54, 171, 179, 1);
+$purple			: rgba(143, 0, 131, 1);
+$darkpurple		: rgba(90, 0, 83, 1);
+$grey			: rgba(200, 200, 200, 1);
+$lightgrey		: rgba(240, 240, 240, 1);
+$black			: rgba(1, 1, 1, 1);
+$white			: rgba(253, 253, 253, 1);
+$gradient		: linear-gradient(-180deg, #CDFFFE 0%, #000F36 100%);
+
+$zindex-minus1	: -1000;
+$zindex-plus1	: 1000;
+$zindex-2		: 2000;
+$zindex-3		: 3000;
+$zindex-4		: 4000;
+$zindex-5		: 5000;
+$zindex-6		: 6000;
+$zindex-7		: 7000;
+$zindex-8		: 8000;
+$zindex-9		: 9000;
+$zindex-10		: 10000;
+
+
+// Mixins
+
+$box-shadow 	: -7px 7px 25px -12px rgba(51, 51, 51, .5);
+
+@mixin fontSize($sizeValue){
+    font-size: $sizeValue * 1px;
+    font-size: ($sizeValue/10) * 1rem;
+}
+
+@mixin font-properties ($family, $weight, $align) {
+	font-family: $family;
+	font-weight: $weight;
+	text-align: $align;
+}
+
+@mixin padding-margin ($padding, $margin) {
+	padding: $padding;
+	margin: $margin;
+}
+
+@mixin colors ($background, $color) {
+	background: $background;
+	color: $color;
+}
+
+@mixin flex ($flexflow, $justify-content, $align-content) {
+	flex-flow: $flexflow;
+	justify-content: $justify-content;
+	align-content: $align-content
+}
+

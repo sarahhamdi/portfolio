@@ -1,15 +1,42 @@
 a {
-	color: #BA209B;
+	color: $blue;
 	text-decoration: none;
+	border-bottom: 1px dotted $blue;
+	font-family: $font-family--body;
 	&:hover {
-		color: #D424B1;
+		border-bottom: 1px dotted $purple;
+		color: $purple;
 	}
+
 }
 
 /* paragraphs */
 
 p {
 	line-height: 1.5;
+	color: $darkpurple;
+	@include fontSize(9);
+	font-family: $font-family--body;
+}
+
+h1,
+h2 {
+	@include fontSize(28);
+	text-transform: uppercase;
+	color: $purple;
+	font-family: 'futura-medium', sans-serif;
+	letter-spacing: 1.5;
+	text-shadow: 4px 4px 0px $blue;
+}
+
+h2 {
+	@include padding-margin (0, 30px 0 100px 0)
+}
+
+h3 {
+	font-family: 'futura-medium', sans-serif;
+	text-transform: uppercase;
+	color: $purple;
 }
 
 /*blockquotes*/
@@ -23,33 +50,12 @@ blockquote {
 	}
 }
 
-/*tables*/
-
-table {
-	td {
-		padding: 10px;
-	}
-	tr td:first {
-		padding-right: 0;
-	}
-}
-
-/*def lists*/
-
-dt {
-	font-weight: 600;
-	padding-bottom: 5px;
-}
-
-dd {
-	padding: 10px;
-	margin-left: 10px;
-}
-
 /*lists*/
-
-ul li, ol li {
-	padding: 3px;
+ul {
+	@include padding-margin (0, 0);
+	list-style: none;
+	@include fontSize(9);
+	font-weight: $font-weight--medium;
 }
 
 /*PRE*/
@@ -82,12 +88,12 @@ Global Classes / Wordpress Specific
 }
 
 img {
-	&.alignleft {
-		padding-right: 5px;
-	}
-	&.alignright {
-		padding-left: 5px;
-	}
+	// &.alignleft {
+	// 	padding-right: 5px;
+	// }
+	// &.alignright {
+	// 	padding-left: 5px;
+	// }
 }
 
 .clear {

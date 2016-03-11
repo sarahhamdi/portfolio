@@ -1,14 +1,40 @@
+nav {
+	position: fixed;
+	z-index: $zindex-9;
+	@include padding-margin (0, 10px 40px 0 40px);
+}
+
 ul.menu {
-	margin: 0;
-	padding: 0;
-	li {
-		display: inline;
-		margin-right: 10px;
-		a {
-			color: #333;
-			padding: 10px;
-			background: #333;
-			color: white;
+	@include padding-margin (0, 0);
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	a,
+	a:visited {
+		color: $grey;
+		border: none;
+		&:hover,
+		a:focus {
+			color: $blue;
 		}
 	}
+	i {
+		@include fontSize(28);
+	}
+	li {
+		@include padding-margin (0, 7px 0);
+	}
+}
+
+div.primary {
+	display: none;
+}
+
+div.hamburger {
+	p {
+		@include fontSize(28);
+		@include padding-margin (0, 7px 0);
+	}
+	
 }
