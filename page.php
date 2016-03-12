@@ -124,7 +124,7 @@
                     <?php while(has_sub_field('project_links')): ?>
                       <?php $links = get_field('project_links'); ?>
                       
-                          <a class="button" href="<?php echo $links['0']['project_link']; ?>"><?php echo $links['0']['project_link_title']; ?></a>
+                          <a class="button hvr-bounce-to-right" href="<?php echo $links['0']['project_link']; ?>"><?php echo $links['0']['project_link_title']; ?></a>
                        
                       <?php endwhile; ?> <!-- end project link loop -->   
                   </div>
@@ -170,7 +170,7 @@
       </section>
       
       <!-- borders -->
-      <svg id="border-1" viewBox="0 0 572 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="border-1" viewBox="0 0 572 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="Group-3-Copy" transform="translate(0.000000, 1.000000)" fill="#000000">
                   <path d="M562,4.85141965 L560,189.80661 L0.0100097656,21.960022 L0.0100097656,0.541768926 L562,4.85141965 Z" id="Rectangle-5"></path>
@@ -182,7 +182,7 @@
       </svg>
 
 
-      <svg id="border-2" viewBox="0 0 851 323" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="border-2" viewBox="0 0 851 323" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="Desktop-Portrait" fill="#F7F7F7">
                   <g>

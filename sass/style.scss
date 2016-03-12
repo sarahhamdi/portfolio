@@ -12,6 +12,7 @@
 @import 'branding';
 @import "bourbon/bourbon";
 @import "neat/neat";
+@import "animations";
 @import 'typography';
 @import 'buttons';
 @import 'navigation';
@@ -43,7 +44,7 @@ body {
 
 .container {
 	@include outer-container(1100px);
-	@include padding-margin (0 50px 0 150px, 0 auto);
+	@include padding-margin (0 60px 0 140px, 0 auto);
 	background: $lightgrey;
 }
 
@@ -79,7 +80,8 @@ article.form {
 
 svg#border-1,
 svg.border-1,
-svg#border-2 {
+svg#border-2,
+svg.border-2 {
 		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -88,14 +90,18 @@ svg#border-2 {
 			fill: $lightgrey;
 		}
 	}
+
 svg#border-1,
 svg.border-1 {
 	margin-top: -25px;
 }
 svg#border-2 {
-	// margin-top: -15%;
+	margin-top: -15%;
 }
 
+svg.border-2 {
+	margin-top: -25%;
+}
 
 
 

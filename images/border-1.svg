@@ -1,11 +1,1 @@
-
-<svg viewBox="0 0 848 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-Portrait" transform="translate(0.000000, -285.000000)">
-            <g id="Group-3" transform="translate(-1.000000, 285.000000)">
-                <path d="M870,11 L593.846562,181.958642 L30,11 L870,11 Z" id="Rectangle-6-Copy-4" fill="#000000"></path>
-                <path d="M0.491521848,0 L849.503517,0 L849,17.2424477 L572.559021,188.80661 L1,17.2424477 L0.491521848,0 Z" id="Rectangle-6" fill="#F8F8F8"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg viewBox="0 0 848 189" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M869 11L592.847 181.96 29 11h840z" fill="#000"/><path d="M-.508 0h849.012L848 17.242 571.56 188.807 0 17.242-.508 0z" fill="#F8F8F8"/></g></svg>

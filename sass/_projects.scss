@@ -43,6 +43,10 @@ article.portfolio-piece {
 	@include padding-margin (0, 100px auto 160px auto)
 	img {
 		filter: drop-shadow(-2px 2px 6px rgba(51, 51, 51, .07));
+		-webkit-filter: grayscale(100%);
+		&:hover {
+			filter: drop-shadow(-3px 3px 20px rgba(51, 51, 51, .1));
+		}
 	}
 	img.colour {
 		display: none;
@@ -61,7 +65,7 @@ div.portfolio-image {
 }
 
 div.portfolio-piece-description {
-	@include padding-margin (25px 20px 0 20px, 0)
+	@include padding-margin (25px 30px 0 30px, 0)
 	@include span-columns(6);
 	position: relative;
 	z-index: 1;
@@ -74,6 +78,7 @@ div.portfolio-piece-description {
 		top: 0;
 		right: 0;
 		z-index: $zindex-minus1;
+		border-bottom: 5px solid $purple;
 	}
 }
 &:nth-child(even) > div.portfolio-piece-description {

@@ -1,18 +1,16 @@
- <nav>
-   
-	<div class="primary">
+ <div class="primary">
 		<?php wp_nav_menu( array(
 		  'container' => false,
 		  'theme_location' => 'primary'
 
 		)); ?>
 	</div>
+
+<nav>
     
 	<div class="hamburger">
-		<p>&#9776;</p>
+		<div></div>
 	</div>
-
-
 	<div class="social">
 		<?php wp_nav_menu( array(
 		  'container' => false,

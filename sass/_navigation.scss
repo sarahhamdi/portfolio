@@ -1,7 +1,7 @@
 nav {
 	position: fixed;
 	z-index: $zindex-9;
-	@include padding-margin (0, 10px 40px 0 40px);
+	@include padding-margin (0, 10px 50px 0 40px);
 }
 
 ul.menu {
@@ -14,6 +14,7 @@ ul.menu {
 	a:visited {
 		color: $grey;
 		border: none;
+		// -webkit-transition:color .30s;
 		&:hover,
 		a:focus {
 			color: $blue;
@@ -29,12 +30,139 @@ ul.menu {
 
 div.primary {
 	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(90, 0, 83, .95);
+	z-index: 9000;
+	@include padding-margin (100px, 0 auto);
+	// transition: all 0.35s;
+	li {
+		@include padding-margin (0, 15px 0);
+	}
+	a,
+	a:active,
+	a:visited {
+		@include fontSize(15);
+		text-transform: uppercase;
+		font-family: $font-family--header;
+		letter-spacing: 1.5px;
+		font-weight: 300;
+		color: $blue;
+		// border-bottom: 0 solid $blue;
+		// transition: all .4s ease;
+		// &:hover {
+		// 	border-bottom: 1px solid $blue;
+		// }
+	}
+}
+
+ul#menu-social-networks {
+	@include padding-margin (0, 20px 0 0 0);
 }
 
 div.hamburger {
-	p {
-		@include fontSize(28);
-		@include padding-margin (0, 7px 0);
-	}
-	
+		// @include padding-margin (0, 40px 0 0 0);
+		padding: 0px 0 40px 0;
+    	margin: 25px  0;
+    	cursor: pointer;
+    	div {
+    		  @include padding-margin (0, 0 auto);
+    		  width: 44px;
+    		  height: 4px;
+    		  background: $purple;
+    		  transition: all 0.35s;
+    		  // position: relative;
+    		  // top: 48px;
+    		  // margin: 0 auto;
+
+    		/* -- top and bottom bar -- */
+
+    		&:before,
+    		&:after {
+    		  width: 44px;
+    		  height: 4px;
+    		  background: $purple;
+    		  content: '';
+    		  position: absolute;
+    		  transition: all 0.30s;
+    		}
+
+    		&:before {
+    		  top: 40px;
+    		  transition: all 0.30s;
+    		}
+
+    		&:after {
+    		  top: 55px;
+    		  transition: all 0.30s;
+    		}
+    	}
+    	div.toggle-close {
+    		background: none;
+    		&:before {
+			    transform: rotate(45deg);
+			    top: 45;
+    		}
+
+    		&:after {
+    			transform: rotate(-45deg);
+    			top: 45;
+    		}
+    	}
 }
+
+// before
+// top: 63px;
+//     transform: rotate(60deg);
+//     left: -10px;
+// }
+
+// after
+// top: 63px;
+//     transform: rotate(-60deg);
+//     right: -9px;
+// }
+
+
+
+
+
+// div.toggle-bar {
+
+// 	/* -- toggle bar styling -- */
+// 	  @include padding-margin (0, 0px 0);
+// 	  width: 44px;
+// 	  height: 4px;
+// 	  background: $purple;
+// 	  transition: all 0.35s;
+// 	  // position: relative;
+// 	  // top: 48px;
+// 	  // margin: 0 auto;
+
+// 	/* -- top and bottom bar -- */
+
+// 	&:before,
+// 	&:after {
+// 	  width: 44px;
+// 	  height: 4px;
+// 	  background: $purple;
+// 	  content: '';
+// 	  position: absolute;
+// 	  transition: all 0.35s;
+// 	}
+
+// 	&:before {
+// 	  top: 30px;
+// 	}
+
+// 	&:after {
+// 	  top: 60px;
+// 	}
+
+// 	// .toggle-btn:hover .toggle-bar {
+// 	//   background: inherit;
+// 	// }
+// }
+
+

@@ -1,7 +1,7 @@
 div.writing {
 	column-count: 2;
 	column-width: span-columns(6);
-	@include padding-margin (0, 0 0 180px 0)
+	@include padding-margin (0, 0 0 0px 0)
 }
 
 ul.blog-posts {
@@ -25,7 +25,7 @@ ul.blog-posts {
 		a,
 		a:visited {
 			@include fontSize(10);
-			font-weight: $font-weight--medium;
+			font-weight: bold;
 			color: $darkblue;
 			text-transform: uppercase;
 			line-height: 1.7;

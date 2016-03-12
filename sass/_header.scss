@@ -5,9 +5,14 @@ div.logo-statement {
 		@include span-columns(6);
 	}
 	svg {
-		
 		width: 90%;
-		filter: drop-shadow(10px 10px 0px $blue);
+		filter: drop-shadow(0px 0px 0px $blue);
+		transform: translateZ(0);
+		transition: filter 1.2s ease;
+		path {
+			fill: $purple;
+			transition: fill 4s ease;
+		}
 	}
 	div.statement {
 		@include span-columns(6);
@@ -19,12 +24,17 @@ div.logo-statement {
 	}
 }
 
+div.svg-shadow svg {
+	filter: drop-shadow(10px 10px 0px $blue);
+}
+
 main {
 	@include padding-margin (100px 0 0px 0, 0);
 	// border-bottom: 5px solid $black;
 	background: $lightgrey;
 	// clip-path: polygon(100% 0, 100% 65%, 67% 100%, 0 65%, 0 0);
 	// z-index: $zindex-5;
+	border-top: 8px solid $purple;
 
 }
 

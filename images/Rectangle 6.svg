@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="848px" height="190px" viewBox="0 0 848 190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 6</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-Portrait" transform="translate(0.000000, -284.000000)" fill="#F8F8F8">
-            <path d="M-0.508478152,285.495798 L848.503517,284.658467 L848,302.242448 L571.559021,473.80661 L1.13575815e-13,302.242448 L-0.508478152,285.495798 Z" id="Rectangle-6"></path>
-        </g>
-    </g>
-</svg>
+<svg width="848" height="190" viewBox="0 0 848 190" xmlns="http://www.w3.org/2000/svg"><title>Rectangle 6</title><path d="M-.508 1.496L848.504.658 848 18.242 571.56 189.807 0 18.242-.508 1.496z" fill="#F8F8F8" fill-rule="evenodd"/></svg>

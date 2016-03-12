@@ -27,27 +27,20 @@ form.comment-form {
 		border: 1px solid $purple;
 		opacity: .3;
 		width: 100%;
+		padding: 7px;
 	}
 	input[type=submit] {
-		// border: none;
-		// background: $black;
-		// color: $white;
-		// padding: 10px 10px;
-		// width: 60%;
-		// @include fontSize(8);
-		// &:hover {
-		// 	background: $blue;
-		// 	opacity: .7;
-		// }
 		float: right;
 		width: 150px;
 	}
 }
 
-
-	#respond .form-submit input {
-
-		margin-top: 20px;
-		width: 60%;
-	}
-
+div.wpcf7-validation-errors,
+div.wpcf7-mail-sent-ok {
+	border: 1px solid $purple;
+    font-family: $font-family--body;
+    @include fontSize(8);
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+}
