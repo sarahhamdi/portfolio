@@ -1,13 +1,10 @@
 <?php get_header();  ?>
   
-  <a name="about"></a>
-  <header>
+ <!--  <a name="about"></a> -->
+  <header id="about">
         <?php include 'header-nav.php'; ?>
   </header>
   
-    
-      
-
       <main>
         <div class="container">
           <div class="logo-statement">
