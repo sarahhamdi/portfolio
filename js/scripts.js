@@ -20,7 +20,7 @@ $(function(){
 	$('input[type=submit]').addClass('hvr-bounce-to-right');
 
 	// adds blue shadows to headers + logo
-	$('h2').addClass('shadow');
+	// $('h2').addClass('shadow');
 	$('div.logo').addClass('svg-shadow');
 
 	// toggles nav hamburger animation + displays nav
@@ -37,6 +37,40 @@ $(function(){
 		$('div.primary').slideToggle();
 		$(this).children().toggleClass('open toggle-close');
 	});
+
+	// animations on scroll function
+	window.isScrolledIntoView = function($elem) {
+		var $window = $(window);
+
+		var docViewTop = $window.scrollTop();
+		var docViewBottom = docViewTop + $window.height();
+
+		var elemTop = $elem.offset().top;
+		var elemBottom = elemTop + $elem.height();
+
+		return((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+	}
+
+	// animates portfolio items + shadow on H2s on scroll using function above
+	$(window).on('scroll', function(){
+
+		$('.animate').each(function(){
+
+			var $el = $(this);
+			if(isScrolledIntoView($el)) {
+				$el.addClass('visible');
+			}
+		});
+
+		$('h2').each(function(){
+
+			var $el = $(this);
+			if(isScrolledIntoView($el)) {
+				$el.addClass('shadow');
+			}
+
+		})
+	})
 
 
 });

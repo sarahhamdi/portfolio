@@ -3,10 +3,10 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  Front End Web Developer: Sarah Hamdi
+  Site: sarahhamdi.com
+  Twitter: @akasarahhamdi
+  Location: Toronto, Canada
 
 /* THANKS */
   WordPress starter theme from HackerYou - http://hackeryou.com

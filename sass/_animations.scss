@@ -1,3 +1,13 @@
+// 
+
+.animate {
+  transform: translateX(-130%);
+  transition: all 1.8s ease;
+}
+
+.visible {
+  transform: translateX(0);
+}
 
 
 // BUTTON ANIMATION
