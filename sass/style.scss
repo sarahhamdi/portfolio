@@ -29,7 +29,7 @@ Default Styling
 
 html {
 	@include padding-margin (0, 0);
-	background:$white;
+	background:$lightgrey;
 }
 img {
 	max-width: 100%;
@@ -38,7 +38,7 @@ img {
 body {
 	@include padding-margin (0, 0);
 	color: $darkpurple;
-	background: $white;
+	background: $lightgrey;
 
 }
 
@@ -60,14 +60,17 @@ section.contact {
 
 section.writing {
 	// @include padding-margin (50px 50px 0 150px, 0 auto);
-	margin-top: 60px;
+	margin-bottom: 60px;
 	div.container {
 		padding-top: 100px;
 	}
 }
+section.projects {
+	padding-top: 100px;
+}
 
 section.contact {
-	margin-top: -10%;
+	// margin-top: -10%;
 	padding-bottom: 100px;
 	div.container {
 		padding-top: 0;
@@ -77,33 +80,6 @@ section.contact {
 article.form {
 	width: 60%;
 }
-
-svg#border-1,
-svg.border-1,
-svg#border-2,
-svg.border-2 {
-		width: 100%;
-		margin: 0;
-		padding: 0;
-		// margin-top: -3px;
-		path#Rectangle-6 {
-			fill: $lightgrey;
-		}
-	}
-
-svg#border-1,
-svg.border-1 {
-	margin-top: -25px;
-}
-svg#border-2 {
-	margin-top: -15%;
-}
-
-svg.border-2 {
-	margin-top: -25%;
-}
-
-
 
 
 

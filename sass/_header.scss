@@ -29,15 +29,12 @@ div.svg-shadow svg {
 }
 
 main {
-	@include padding-margin (100px 0 0px 0, 0);
+	@include padding-margin (100px 0 0 0, 0);
 	// border-bottom: 5px solid $black;
 	background: $lightgrey;
-	// clip-path: polygon(100% 0, 100% 65%, 67% 100%, 0 65%, 0 0);
-	// z-index: $zindex-5;
 	border-top: 8px solid $purple;
-
+	// clip-path: polygon(100% 0, 100% 90%, 72% 90%, 66% 100%, 59% 90%, 0 90%, 0 0);
 }
-
 
 // div.shadow {
 // 	transform: skew(-50deg,11deg);

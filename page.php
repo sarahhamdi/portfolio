@@ -41,9 +41,18 @@
         </div> <!-- /.container -->
 
       </main>
-
+      <svg viewBox="0 0 848 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Desktop-Portrait" transform="translate(0.000000, -479.000000)">
+                  <g id="Group-5" transform="translate(0.000000, 479.000000)">
+                      <path d="M615.248474,125.317047 L848,0.797904968 L848,211.513344 C848,211.513344 -2.29190618e-07,39.9138603 2.27373675e-13,39.9138603 C2.2919107e-07,39.9138603 2.27373675e-13,0.797904968 2.27373675e-13,0.797904968 L615.248474,125.317047 Z" id="Triangle-12" fill="#FFFFFF"></path>
+                      <path d="M847.589514,1 L847.589514,8.33836079 L637.357943,120.933358 L630,117.557275 L847.589514,1 Z" id="Path-204" fill="#000000"></path>
+                  </g>
+              </g>
+          </g>
+      </svg>
       <!-- borders -->
-      <svg id="border-1" viewBox="0 0 848 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!--       <svg id="border-1" viewBox="0 0 848 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="Desktop-Portrait" transform="translate(0.000000, -285.000000)">
                   <g id="Group-3" transform="translate(-1.000000, 285.000000)">
@@ -63,7 +72,7 @@
                   </g>
               </g>
           </g>
-      </svg>
+      </svg> -->
 
       <!-- end borders -->
 
@@ -137,6 +146,18 @@
         </div>
       </section> <!-- end of section projects -->
       
+      <svg viewBox="0 0 848 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Desktop-Portrait" transform="translate(0.000000, -479.000000)">
+                  <g id="Group-5" transform="translate(424.000000, 500.500000) scale(-1, -1) translate(-424.000000, -500.500000) translate(0.000000, 479.000000)">
+                      <path d="M848,0.995307922 L848,42.5133438 L2.27373675e-13,42.5133438 C2.2919107e-07,42.5133438 2.27373675e-13,0.995307922 2.27373675e-13,0.995307922 L848,0.995307922 Z" id="Triangle-12" fill="#FFFFFF"></path>
+                      <path d="M847.589514,33.5949972 L847.589514,41.933358 L35.6755677,41.933358 L35.6755677,33.5949972 L847.589514,33.5949972 Z" id="Path-204" fill="#000000" transform="translate(441.632541, 37.764178) scale(1, -1) translate(-441.632541, -37.764178) "></path>
+                  </g>
+              </g>
+          </g>
+      </svg>
+
+
       <a name="writing"></a>
       <section class="writing">
         <div class="container">
@@ -172,7 +193,7 @@
       
       <!-- borders -->
 
-      <svg class="border-1" viewBox="0 0 572 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!--       <svg class="border-1" viewBox="0 0 572 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="Group-3-Copy" transform="translate(0.000000, 1.000000)" fill="#000000">
                   <path d="M562,4.85141965 L560,189.80661 L0.0100097656,21.960022 L0.0100097656,0.541768926 L562,4.85141965 Z" id="Rectangle-5"></path>
@@ -192,8 +213,17 @@
                   </g>
               </g>
           </g>
+      </svg> -->
+      <svg viewBox="0 0 848 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Desktop-Portrait" transform="translate(0.000000, -479.000000)">
+                  <g id="Group-5" transform="translate(424.000000, 585.000000) scale(-1, -1) translate(-424.000000, -585.000000) translate(0.000000, 479.000000)">
+                      <path d="M848,169.995308 L848,211.513344 C848,211.513344 -2.29190618e-07,39.9138603 2.27373675e-13,39.9138603 C2.2919107e-07,39.9138603 2.27373675e-13,0.797904968 2.27373675e-13,0.797904968 L848,169.995308 Z" id="Triangle-12" fill="#FFFFFF"></path>
+                      <path d="M847.589514,42.0969017 L847.589514,49.4352625 L47.5136137,210.933358 L37.4541304,205.392251 L847.589514,42.0969017 Z" id="Path-204" fill="#000000" transform="translate(442.521822, 126.515130) scale(1, -1) translate(-442.521822, -126.515130) "></path>
+                  </g>
+              </g>
+          </g>
       </svg>
-
       <!-- end borders -->
       <a name="contact"></a>
       <section class="contact">
