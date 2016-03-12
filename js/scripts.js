@@ -6,7 +6,7 @@ $(function(){
 	$('div.hamburger').on('click', function(){
 		// $('div.social').slideToggle('fast');
 		$('div.primary').slideToggle();
-		$(this).children().toggleClass('toggle-close');
+		$(this).children().toggleClass('open toggle-close');
 		// $('div.toggle-bar').toggle(function(){
 		// 	$('div.toggle-bar').addClass('toggle-close');
 		// 	$('div.toggle-bar').addClass('toggle-close');

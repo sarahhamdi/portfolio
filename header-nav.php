@@ -9,7 +9,7 @@
 <nav>
     
 	<div class="hamburger">
-		<div></div>
+		<div class="open"></div>
 	</div>
 	<div class="social">
 		<?php wp_nav_menu( array(

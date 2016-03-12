@@ -1,6 +1,6 @@
 
 
-// BUTTONS
+// BUTTON ANIMATION
 
 .hvr-bounce-to-right {
   display: inline-block;
@@ -24,7 +24,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4FEDF7;
+  background: $darkblue;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -48,7 +48,8 @@
 }
 
 
-/* Underline From Center */
+// MENU UNDERLINE ANIMATION
+
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -69,7 +70,7 @@
   right: 50%;
   bottom: 0px;
   background: $blue;
-  height: 2px;
+  height: 3px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;

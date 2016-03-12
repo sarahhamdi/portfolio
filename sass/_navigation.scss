@@ -89,6 +89,17 @@ div.hamburger {
     		}
 
     		&:before {
+    		  // top: 40px;
+    		  // transition: all 0.30s;
+    		}
+
+    		&:after {
+    		  // top: 55px;
+    		  // transition: all 0.30s;
+    		}
+    	}
+    	div.open {
+    		&:before {
     		  top: 40px;
     		  transition: all 0.30s;
     		}
@@ -101,13 +112,15 @@ div.hamburger {
     	div.toggle-close {
     		background: none;
     		&:before {
+    			top: 40px;
 			    transform: rotate(45deg);
-			    top: 45;
+			    
     		}
 
     		&:after {
+    			top: 40px;
     			transform: rotate(-45deg);
-    			top: 45;
+    			
     		}
     	}
 }
