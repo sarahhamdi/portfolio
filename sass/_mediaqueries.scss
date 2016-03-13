@@ -101,7 +101,7 @@
 
 	div.logo-statement {
 		div.logo {
-			width: 100%;
+			width: 95%;
 		}
 		div.statement {
 			padding: 0;
@@ -110,3 +110,70 @@
 
 }
 
+@media (max-width: 535px) {
+	nav {
+		margin: 5px 15px 0 15px;
+	}
+	div.hamburger {
+		margin: 25px 0 0 0;
+		div {
+			width: 30px;
+		}
+		div.open:before {
+			width: 30px;
+			top: 35px;
+		}
+		div.open:after {
+			width: 30px;
+			top: 45px;
+
+		}
+
+	}
+	ul#menu-social-networks {
+		padding: 0;
+    	margin: 0px 0 0;
+	}
+	ul.menu li {
+		margin: 3px 0;
+		i {
+			@include fontSize(20);
+		}
+	}
+	ul#menu-main-menu {
+		li {
+			margin: 20px;
+		}
+	}
+
+	div.primary {
+		padding: 25px;
+	}
+	div.container {
+		padding: 0 25px 0 65px;
+	}
+	main#home {
+		padding: 20px 0 0;
+	}
+	div.logo-statement div.statement {
+		p {
+			@include fontSize(10);
+		}
+	}
+	section.projects ul.skills {
+		justify-content: space-around;
+	}
+
+	section.projects ul.skills li, 
+	section.projects ul.skills li:first-of-type {
+		width: calc(30% - 20px);
+	}
+
+	div.portfolio-piece-description,
+	&:nth-child(even) > div.portfolio-piece-description {
+		&::before {
+		    height: 140%;
+		}
+	}
+	
+}

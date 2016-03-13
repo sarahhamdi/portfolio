@@ -16,7 +16,7 @@ ul.blog-posts {
 			@include padding-margin (0, 0px 25px 0 35px);
 		}
 		&::before {
-			content: '►';
+			content: '▶';
 			color: $blue;
 			position: absolute;
 			left: -30px;
