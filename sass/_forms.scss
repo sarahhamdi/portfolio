@@ -1,6 +1,6 @@
 form#searchform {
 	input[type=search] {
-		border: 1px solid $blue;
+		border: 1px solid yellow;
 		opacity: .3;
 		padding: 2px;
 		width: 70%;
@@ -17,6 +17,10 @@ form#searchform {
 			opacity: .7;
 		}
 	}
+	input:focus { 
+		outline: none;
+		border: 1px solid $blue; 
+	}
 }
 
 form.wpcf7-form,
@@ -25,7 +29,7 @@ form.comment-form {
 	input[type=email],
 	textarea {
 		border: 1px solid $purple;
-		opacity: .3;
+		opacity: .7;
 		width: 100%;
 		padding: 7px;
 	}
