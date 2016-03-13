@@ -35,7 +35,7 @@ $(function(){
 	// closes nav when someone clicks on a nav link
 	$('div.primary a').on('click', function(){
 		$('div.primary').slideToggle();
-		$(this).children().toggleClass('open toggle-close');
+		// $(this).children().toggleClass('open toggle-close');
 	});
 
 	// animations on scroll function

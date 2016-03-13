@@ -1,12 +1,8 @@
 form#searchform {
-	input[type=search] {
-		border: 1px solid yellow;
-		opacity: .3;
-		padding: 2px;
-		width: 70%;
-	}
 	input[type=submit] {
 		border: none;
+		border-bottom: 5px solid $purple;
+		// border: none;
 		background: $black;
 		color: $white;
 		padding: 5px 10px;
@@ -14,7 +10,7 @@ form#searchform {
 		@include fontSize(8);
 		&:hover {
 			background: $blue;
-			opacity: .7;
+			opacity: .8;
 		}
 	}
 	input:focus { 
@@ -28,7 +24,8 @@ form.comment-form {
 	input[type=text],
 	input[type=email],
 	textarea {
-		border: 1px solid $purple;
+		border: none;
+		border-bottom: 5px solid $purple;
 		opacity: .7;
 		width: 100%;
 		padding: 7px;
@@ -41,7 +38,8 @@ form.comment-form {
 
 div.wpcf7-validation-errors,
 div.wpcf7-mail-sent-ok {
-	border: 1px solid $purple;
+	border: none;
+	border-bottom: 5px solid $purple;
     font-family: $font-family--body;
     @include fontSize(8);
     text-align: center;

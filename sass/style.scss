@@ -20,6 +20,7 @@
 @import 'header';
 @import 'projects';
 @import 'writing';
+@import 'mediaqueries';
 
 /*
 ====================================
@@ -29,8 +30,9 @@ Default Styling
 
 html {
 	@include padding-margin (0, 0);
-	background:$lightgrey;
+	background: $lightgrey;
 }
+
 img {
 	max-width: 100%;
 }

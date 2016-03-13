@@ -8,7 +8,7 @@
   
 <!-- ABOUT ME  -->
 
-  <main id="about">
+  <main id="home">
     <div class="container">
       <div class="logo-statement">
 
@@ -60,9 +60,9 @@
 
 <!-- WORK & SKILLS -->
     
-  <section class="projects" id="work">
+  <section class="projects" >
     <div class="container">
-      <h2>Work & Skills</h2>
+      <h2 id="work">Work & Skills</h2>
 
       <!-- start skill loop -->
       
@@ -142,9 +142,9 @@
 
 <!-- WRITING -->
 
-  <section class="writing" id="writing">
+  <section class="writing" >
     <div class="container">
-    <h2>Writing</h2>
+    <h2 id="writing">Writing</h2>
 
     <!-- start blog posts loop  -->
 
@@ -189,12 +189,12 @@
 
 <!-- CONTACT ME -->
 
-  <section class="contact" id="contact">
+  <section class="contact" >
     <div class="container">
     <!-- start page loop - contact form -->
 
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-        <h2>Contact Me</h2>
+        <h2 id="contact">Contact Me</h2>
           <article class="form">
             <?php the_content(); ?>
           </article>
