@@ -54,7 +54,7 @@ div.portfolio-image {
 		position: absolute;
 		top: 18px;
 		filter: drop-shadow(-2px 2px 6px rgba(51, 51, 51, .07));
-		-webkit-filter: grayscale(40%);
+		// -webkit-filter: grayscale(40%);
 		transition: all 0.35s ease;
 		&:hover {
 			filter: drop-shadow(-3px 3px 20px rgba(51, 51, 51, .1));

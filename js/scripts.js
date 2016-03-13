@@ -72,5 +72,12 @@ $(function(){
 		})
 	})
 
+	$(window).resize(function(){
+	if ($(window).width() <= 500){	
+		$('article.portfolio-piece').removeClass('animate visible');
+	}	
+});
+
+
 
 });
