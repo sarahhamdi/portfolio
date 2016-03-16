@@ -102,7 +102,6 @@
               <?php $image = get_field('image_bw'); ?>
               <div class="portfolio-image">
               <img class="bw" src="<?php echo $image['sizes']['large'] ?>" alt="">
-              <?php $image = get_field('image_colour'); ?>
               <img class="colour" src="<?php echo $image['sizes']['large']; ?>" alt="">
               </div>
               <div class="portfolio-piece-description">

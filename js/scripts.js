@@ -36,7 +36,6 @@ $(function(){
 	$('div.primary a').on('click', function(){
 		$('div.primary').slideToggle();
 		$('div.hamburger').children().toggleClass('toggle-close open');
-		// $(this).children().toggleClass('open toggle-close');
 	});
 
 	// animations on scroll function
@@ -74,7 +73,7 @@ $(function(){
 	})
 
 	$(window).resize(function(){
-	if ($(window).width() <= 500){	
+	if ($(window).width() <= 800){	
 		$('article.portfolio-piece').removeClass('animate visible');
 	}	
 });
